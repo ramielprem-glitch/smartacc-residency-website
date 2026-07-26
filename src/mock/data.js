@@ -11,18 +11,18 @@ export const stats = [
 ]
 
 export const recentCheckIns = [
-  { id: 'G-2041', guest: 'Amara Okafor', room: '204', type: 'Deluxe', time: '09:12 AM' },
-  { id: 'G-2042', guest: 'Liam Chen', room: '118', type: 'Standard', time: '09:48 AM' },
-  { id: 'G-2043', guest: 'Sofia Rossi', room: '310', type: 'Suite', time: '10:05 AM' },
-  { id: 'G-2044', guest: 'Noah Williams', room: '102', type: 'Standard', time: '10:31 AM' },
-  { id: 'G-2045', guest: 'Priya Nair', room: '220', type: 'Deluxe', time: '11:02 AM' },
+  { id: 'G-2041', guest: 'Anoop', room: '204', type: 'Deluxe', time: '09:12 AM' },
+  { id: 'G-2042', guest: 'bhavisha', room: '118', type: 'Standard', time: '09:48 AM' },
+  { id: 'G-2043', guest: 'shincy', room: '310', type: 'Suite', time: '10:05 AM' },
+  { id: 'G-2044', guest: 'prathyu', room: '102', type: 'Standard', time: '10:31 AM' },
+  { id: 'G-2045', guest: 'jithesh', room: '220', type: 'Deluxe', time: '11:02 AM' },
 ]
 
 export const recentCheckOuts = [
-  { id: 'G-2010', guest: 'Mateo García', room: '208', type: 'Deluxe', time: '08:30 AM' },
-  { id: 'G-2011', guest: 'Hana Kim', room: '115', type: 'Standard', time: '08:55 AM' },
-  { id: 'G-2012', guest: 'Omar Haddad', room: '305', type: 'Suite', time: '09:20 AM' },
-  { id: 'G-2013', guest: 'Elena Petrova', room: '110', type: 'Standard', time: '09:40 AM' },
+  { id: 'G-2010', guest: 'rahul', room: '208', type: 'Deluxe', time: '08:30 AM' },
+  { id: 'G-2011', guest: 'arjun', room: '115', type: 'Standard', time: '08:55 AM' },
+  { id: 'G-2012', guest: 'kiran', room: '305', type: 'Suite', time: '09:20 AM' },
+  { id: 'G-2013', guest: 'subbu', room: '110', type: 'Standard', time: '09:40 AM' },
 ]
 
 // 7-day occupancy (percentage) for the dashboard chart.
