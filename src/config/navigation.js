@@ -20,20 +20,20 @@ export const navConfig = [
     children: [
       { label: 'Check-In', to: '/check-in', icon: FiUserPlus },
       { label: 'Guest List', to: '/guests', icon: FiList },
-      { label: 'Check-Out', to: '/check-out', icon: FiUserMinus },
+      // { label: 'Check-Out', to: '/check-out', icon: FiUserMinus },
     ],
   },
-  {
-    label: 'Rooms',
-    icon: FiHome,
-    children: [
-      { label: 'Room Availability', to: '/rooms/availability', icon: FiCalendar },
-      { label: 'Room Management', to: '/rooms/management', icon: FiHome },
-    ],
-  },
-  { label: 'Billing', to: '/billing', icon: FiCreditCard },
+  // {
+  //   label: 'Rooms',
+  //   icon: FiHome,
+  //   children: [
+  //     { label: 'Room Availability', to: '/rooms/availability', icon: FiCalendar },
+  //     { label: 'Room Management', to: '/rooms/management', icon: FiHome },
+  //   ],
+  // },
+  // { label: 'Billing', to: '/billing', icon: FiCreditCard },
   { label: 'Reports', to: '/reports', icon: FiBarChart2 },
-  { label: 'Settings', to: '/settings', icon: FiSettings },
+  // { label: 'Settings', to: '/settings', icon: FiSettings },
 ]
 
 // Map route path -> page title (used by the top navbar).

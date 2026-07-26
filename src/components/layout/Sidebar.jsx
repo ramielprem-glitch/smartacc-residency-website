@@ -152,7 +152,7 @@ export default function Sidebar({ collapsed, onToggleCollapse, mobileOpen, onClo
               animate={{ opacity: 1 }}
               className="leading-tight"
             >
-              <p className="font-heading text-sm font-semibold">StaySync</p>
+              <p className="font-heading text-sm font-semibold">SmartAcc</p>
               <p className="text-[11px] text-slate-400">RMS</p>
             </motion.div>
           )}

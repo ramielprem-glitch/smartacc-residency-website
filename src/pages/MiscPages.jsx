@@ -11,13 +11,13 @@ export function Billing() {
 }
 
 export function Reports() {
-  return (
-    <PlaceholderPage
-      title="Reports"
-      subtitle="Operational and financial reporting"
-      description="Reports will include occupancy trends, revenue analysis, and guest demographics with exportable views. This module is a placeholder for Phase 1."
-    />
-  )
+  // return (
+  //   <PlaceholderPage
+  //     title="Reports"
+  //     subtitle="Operational and financial reporting"
+  //     description="Reports will include occupancy trends, revenue analysis, and guest demographics with exportable views. This module is a placeholder for Phase 1."
+  //   />
+  // )
 }
 
 export function Settings() {

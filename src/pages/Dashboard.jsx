@@ -59,7 +59,7 @@ export default function Dashboard() {
   return (
     <PageTransition>
       <div className="space-y-6">
-        <PageHeader
+        {/* <PageHeader
           title="Dashboard"
           subtitle="Smart Residency Management Made Simple"
           actions={
@@ -70,17 +70,17 @@ export default function Dashboard() {
               </Button>
             </>
           }
-        />
+        /> */}
 
         {/* Stat cards */}
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6">
+        {/* <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6">
           {stats.map((stat, i) => (
             <StatCard key={stat.id} stat={stat} index={i} />
           ))}
-        </div>
+        </div> */}
 
         {/* Charts row */}
-        <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
+        {/* <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
           <Card className="p-5">
             <SectionTitle
               title="Occupancy"
@@ -143,7 +143,7 @@ export default function Dashboard() {
               </ResponsiveContainer>
             </div>
           </Card>
-        </div>
+        </div> */}
 
         {/* Recent activity + quick actions */}
         <div className="grid grid-cols-1 gap-4 lg:grid-cols-3">
@@ -161,7 +161,7 @@ export default function Dashboard() {
             </div>
           </Card>
 
-          <Card className="p-5">
+          {/* <Card className="p-5">
             <SectionTitle title="Quick Actions" />
             <div className="mt-4 grid grid-cols-2 gap-3">
               {quickActions.map((a) => (
@@ -180,7 +180,7 @@ export default function Dashboard() {
                 </motion.button>
               ))}
             </div>
-          </Card>
+          </Card> */}
         </div>
 
         {/* Recent check-outs */}
@@ -198,10 +198,10 @@ export default function Dashboard() {
           </div>
         </Card>
 
-        <EmptyState
+        {/* <EmptyState
           title="More analytics coming soon"
           description="Advanced reporting, forecasting and guest insights will be added in a later phase."
-        />
+        /> */}
       </div>
     </PageTransition>
   )

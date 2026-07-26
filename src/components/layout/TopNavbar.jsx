@@ -57,7 +57,7 @@ export default function TopNavbar({ onOpenMobileMenu }) {
       {/* Right cluster */}
       <div className="ml-auto flex items-center gap-1.5 md:ml-3">
         {/* Notifications */}
-        <div className="relative">
+        {/* <div className="relative">
           <button
             onClick={() => setNotifOpen((o) => !o)}
             className="relative rounded-lg p-2 text-slate-500 transition-colors hover:bg-canvas hover:text-ink dark:text-slate-300 dark:hover:bg-slate-800"
@@ -115,7 +115,7 @@ export default function TopNavbar({ onOpenMobileMenu }) {
               </>
             )}
           </AnimatePresence>
-        </div>
+        </div> */}
 
         {/* Theme toggle */}
         <button
@@ -129,11 +129,11 @@ export default function TopNavbar({ onOpenMobileMenu }) {
         {/* Avatar */}
         <button className="ml-1 flex items-center gap-2 rounded-xl py-1 pl-1 pr-2 transition-colors hover:bg-canvas dark:hover:bg-slate-800">
           <span className="flex h-8 w-8 items-center justify-center rounded-full bg-primary-800 text-sm font-semibold text-white">
-            AK
+            AD
           </span>
           <span className="hidden text-left sm:block">
             <span className="block text-sm font-medium leading-tight text-ink dark:text-slate-100">
-              Alex Kim
+              Admin
             </span>
             <span className="block text-[11px] leading-tight text-slate-400">
               Front Desk
